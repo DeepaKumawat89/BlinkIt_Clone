@@ -1,0 +1,127 @@
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    background-color: #f8f8f8;
+    padding: 20px;
+}
+
+.auth-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    width: 100%;
+    max-width: 400px;
+}
+
+.auth-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.auth-header img {
+    width: 80px;
+    margin-bottom: 1rem;
+}
+
+.auth-header h2 {
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: 700;
+}
+
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.form-group label {
+    font-size: 0.85rem;
+    color: #666;
+    font-weight: 500;
+}
+
+.form-group input {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: all 0.2s;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #328616;
+    box-shadow: 0 0 0 2px rgba(50, 134, 22, 0.1);
+}
+
+.auth-btn {
+    background-color: #328616;
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-top: 1rem;
+}
+
+.auth-btn:hover {
+    background-color: #2a7012;
+}
+
+.auth-toggle {
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.auth-toggle span {
+    color: #328616;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.auth-toggle span:hover {
+    text-decoration: underline;
+}
+
+.error-msg {
+    color: #e74c3c;
+    font-size: 0.85rem;
+    margin-top: -0.5rem;
+}
+
+.success-msg {
+    color: #27ae60;
+    font-size: 0.85rem;
+    margin-top: -0.5rem;
+}
+
+/* Field Level Validation Styles */
+.error-text {
+    color: #e74c3c;
+    font-size: 0.75rem;
+    margin-top: 2px;
+}
+
+.input-error {
+    border-color: #e74c3c !important;
+}
+
+.input-error:focus {
+    box-shadow: 0 0 0 2px rgba(231, 76, 60, 0.1) !important;
+}
